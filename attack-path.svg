@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
@@ -7,7 +8,7 @@
     
     <rect width="100%" height="100%" fill="#f8f8f8"/>
     
-    <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">APT Attack Path based on META-ATT&CK Framework</text>
+    <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">APT Attack Path based on META-ATTACK Framework</text>
 
     <!-- Nodes -->
     <g transform="translate(50,100)">
