@@ -5,6 +5,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ![](meta-attack-matrix.svg)
 
+![](meta-attack-matrix_en.svg)
 
 ## 1. 战略规划 (Strategic Planning)
 [对应ATT&CK战术: Reconnaissance (TA0043), Resource Development (TA0042)]
