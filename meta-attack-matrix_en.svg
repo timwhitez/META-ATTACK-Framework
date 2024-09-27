@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1800" height="1200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#45a049;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="cellGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <style>
+        .header { fill: url(#headerGradient); }
+        .cell { fill: url(#cellGradient); stroke: #ddd; stroke-width: 1; }
+        .cell:hover { filter: brightness(0.95); }
+        .text { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+        .header-text { font-family: Arial, sans-serif; font-size: 14px; fill: white; font-weight: bold; }
+        .subtext { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    </style>
+    
+    <rect width="100%" height="100%" fill="#f9f9f9"/>
+    
+    <text x="900" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">META-ATT&amp;CK Framework Matrix</text>
+
+    <!-- Header cells -->
+    <g>
+        <rect x="10" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="85" y="85" class="header-text" text-anchor="middle">1. Strategic Planning</text>
+    </g>
+    <g>
+        <rect x="165" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="240" y="85" class="header-text" text-anchor="middle">2. Initial Access</text>
+    </g>
+    <g>
+        <rect x="320" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="395" y="85" class="header-text" text-anchor="middle">3. Foothold Establishment</text>
+    </g>
+    <g>
+        <rect x="475" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="550" y="85" class="header-text" text-anchor="middle">4. Privilege Escalation</text>
+    </g>
+    <g>
+        <rect x="630" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="705" y="85" class="header-text" text-anchor="middle">5. Internal Reconnaissance</text>
+    </g>
+    <g>
+        <rect x="785" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="860" y="85" class="header-text" text-anchor="middle">6. Lateral Movement</text>
+    </g>
+    <g>
+        <rect x="940" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="1015" y="85" class="header-text" text-anchor="middle">7. Data Acquisition &amp; Exfiltration</text>
+    </g>
+    <g>
+        <rect x="1095" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="1170" y="85" class="header-text" text-anchor="middle">8. Impact &amp; Destruction</text>
+    </g>
+    <g>
+        <rect x="1250" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="1325" y="85" class="header-text" text-anchor="middle">9. Long-term Persistence</text>
+    </g>
+    <g>
+        <rect x="1405" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="1480" y="85" class="header-text" text-anchor="middle">10. Mission Completion</text>
+    </g>
+    <g>
+        <rect x="1560" y="60" width="150" height="40" rx="5" ry="5" class="header"/>
+        <text x="1635" y="85" class="header-text" text-anchor="middle">11. Post-Action Evaluation</text>
+    </g>
+
+    <!-- Content cells -->
+    <!-- Row 1 -->
+    <g>
+        <rect x="10" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="15" y="125" class="text">1.1 Target Selection</text>
+        <text x="20" y="145" class="subtext">High-value target identification</text>
+        <text x="20" y="160" class="subtext">Geopolitical considerations</text>
+        <text x="20" y="175" class="subtext">Economic benefit assessment</text>
+    </g>
+    <g>
+        <rect x="165" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="170" y="125" class="text">2.1 Social Engineering Attacks</text>
+        <text x="175" y="145" class="subtext">Targeted spear-phishing</text>
+        <text x="175" y="160" class="subtext">Watering hole attacks</text>
+        <text x="175" y="175" class="subtext">Impersonation of trusted entities</text>
+    </g>
+    <g>
+        <rect x="320" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="325" y="125" class="text">3.1 Persistence Mechanisms</text>
+        <text x="330" y="145" class="subtext">Boot or logon autostart execution</text>
+        <text x="330" y="160" class="subtext">Create or modify system process</text>
+        <text x="330" y="175" class="subtext">Registry hijacking</text>
+    </g>
+    <g>
+        <rect x="475" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="480" y="125" class="text">4.1 Local Privilege Escalation</text>
+        <text x="485" y="145" class="subtext">Kernel exploit</text>
+        <text x="485" y="160" class="subtext">DLL hijacking</text>
+        <text x="485" y="175" class="subtext">Scheduled task abuse</text>
+    </g>
+    <g>
+        <rect x="630" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="635" y="125" class="text">5.1 Network Discovery</text>
+        <text x="640" y="145" class="subtext">Passive network mapping</text>
+        <text x="640" y="160" class="subtext">Active Directory enumeration</text>
+        <text x="640" y="175" class="subtext">Service discovery</text>
+    </g>
+    <g>
+        <rect x="785" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="790" y="125" class="text">6.1 Credential Exploitation</text>
+        <text x="795" y="145" class="subtext">Pass the hash</text>
+        <text x="795" y="160" class="subtext">Golden &amp; silver ticket attacks</text>
+        <text x="795" y="175" class="subtext">Credential injection</text>
+    </g>
+    <g>
+        <rect x="940" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="945" y="125" class="text">7.1 Data Discovery &amp; Collection</text>
+        <text x="950" y="145" class="subtext">Automated sensitive data identification</text>
+        <text x="950" y="160" class="subtext">Database content extraction</text>
+        <text x="950" y="175" class="subtext">File system scanning</text>
+    </g>
+    <g>
+        <rect x="1095" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1100" y="125" class="text">8.1 Data Manipulation</text>
+        <text x="1105" y="145" class="subtext">Targeted data tampering</text>
+        <text x="1105" y="160" class="subtext">Database pollution</text>
+        <text x="1105" y="175" class="subtext">Configuration file modification</text>
+    </g>
+    <g>
+        <rect x="1250" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1255" y="125" class="text">9.1 Covert Communication Channels</text>
+        <text x="1260" y="145" class="subtext">Custom C2 protocols</text>
+        <text x="1260" y="160" class="subtext">Domain fronting</text>
+        <text x="1260" y="175" class="subtext">Social media C2</text>
+    </g>
+    <g>
+        <rect x="1405" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1410" y="125" class="text">10.1 Objective Confirmation</text>
+        <text x="1415" y="145" class="subtext">Data integrity verification</text>
+        <text x="1415" y="160" class="subtext">Persistent access confirmation</text>
+        <text x="1415" y="175" class="subtext">Impact assessment</text>
+    </g>
+    <g>
+        <rect x="1560" y="105" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1565" y="125" class="text">11.1 Action Effectiveness Analysis</text>
+        <text x="1570" y="145" class="subtext">Goal achievement evaluation</text>
+        <text x="1570" y="160" class="subtext">Technical effectiveness analysis</text>
+        <text x="1570" y="175" class="subtext">Defense bypass success rate</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g>
+        <rect x="10" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="15" y="270" class="text">1.2 Attack Resource Preparation</text>
+        <text x="20" y="290" class="subtext">Custom malware development</text>
+        <text x="20" y="305" class="subtext">Zero-day vulnerability acquisition</text>
+        <text x="20" y="320" class="subtext">Multi-layer proxy infrastructure setup</text>
+    </g>
+    <g>
+        <rect x="165" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="170" y="270" class="text">2.2 Technical Vulnerability Exploitation</text>
+        <text x="175" y="290" class="subtext">Zero-day exploit utilization</text>
+        <text x="175" y="305" class="subtext">Known vulnerability exploitation</text>
+        <text x="175" y="320" class="subtext">Misconfiguration exploitation</text>
+    </g>
+    <g>
+        <rect x="320" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="325" y="270" class="text">3.2 Backdoor Implantation</text>
+        <text x="330" y="290" class="subtext">Firmware-level backdoors</text>
+        <text x="330" y="305" class="subtext">Memory-resident malicious code</text>
+        <text x="330" y="320" class="subtext">Signed software hijacking</text>
+    </g>
+    <g>
+        <rect x="475" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="480" y="270" class="text">4.2 Domain Privilege Escalation</text>
+        <text x="485" y="290" class="subtext">Kerberoasting</text>
+        <text x="485" y="305" class="subtext">DCSync attack</text>
+        <text x="485" y="320" class="subtext">Domain trust relationship exploitation</text>
+    </g>
+    <g>
+        <rect x="630" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="635" y="270" class="text">5.2 Asset Identification</text>
+        <text x="640" y="290" class="subtext">Critical data storage location identification</text>
+        <text x="640" y="305" class="subtext">Business-critical system localization</text>
+        <text x="640" y="320" class="subtext">High-value target identification</text>
+    </g>
+    <g>
+        <rect x="785" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="790" y="270" class="text">6.2 Remote Service Exploitation</text>
+        <text x="795" y="290" class="subtext">Exploitation of undocumented RPC</text>
+        <text x="795" y="305" class="subtext">Trusted management protocol abuse</text>
+        <text x="795" y="320" class="subtext">RDP hijacking</text>
+    </g>
+    <g>
+        <rect x="940" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="945" y="270" class="text">7.2 Data Classification &amp; Prioritization</text>
+        <text x="950" y="290" class="subtext">Keyword-based data classification</text>
+        <text x="950" y="305" class="subtext">Data sensitivity assessment</text>
+        <text x="950" y="320" class="subtext">Data value analysis</text>
+    </g>
+    <g>
+        <rect x="1095" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1100" y="270" class="text">8.2 System Destruction</text>
+        <text x="1105" y="290" class="subtext">Selective data erasure</text>
+        <text x="1105" y="305" class="subtext">Critical system file deletion</text>
+        <text x="1105" y="320" class="subtext">Boot record overwriting</text>
+    </g>
+    <g>
+        <rect x="1250" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1255" y="270" class="text">9.2 Self-Update Mechanisms</text>
+        <text x="1260" y="290" class="subtext">Modular malware architecture</text>
+        <text x="1260" y="305" class="subtext">Dynamic code injection</text>
+        <text x="1260" y="320" class="subtext">Remote configuration updates</text>
+    </g>
+    <g>
+        <rect x="1405" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1410" y="270" class="text">10.2 Trace Cleanup</text>
+        <text x="1415" y="290" class="subtext">Log clearing and forging</text>
+        <text x="1415" y="305" class="subtext">Timestamp manipulation</text>
+        <text x="1415" y="320" class="subtext">Memory artifact removal</text>
+    </g>
+    <g>
+        <rect x="1560" y="250" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1565" y="270" class="text">11.2 Intelligence Feedback</text>
+        <text x="1570" y="290" class="subtext">Target defense capability assessment</text>
+        <text x="1570" y="305" class="subtext">New defense technology identification</text>
+        <text x="1570" y="320" class="subtext">Tactical adjustment recommendations</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g>
+        <rect x="10" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="15" y="415" class="text">1.3 Intelligence Gathering</text>
+        <text x="20" y="435" class="subtext">Deep OSINT collection</text>
+        <text x="20" y="450" class="subtext">Supply chain analysis</text>
+        <text x="20" y="465" class="subtext">Social engineering information gathering</text>
+    </g>
+    <g>
+        <rect x="165" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="170" y="415" class="text">2.3 Supply Chain Attacks</text>
+        <text x="175" y="435" class="subtext">Software update channel hijacking</text>
+        <text x="175" y="450" class="subtext">Third-party service provider infiltration</text>
+        <text x="175" y="465" class="subtext">Open-source component pollution</text>
+    </g>
+    <g>
+        <rect x="320" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="325" y="415" class="text">3.3 Defense Evasion</text>
+        <text x="330" y="435" class="subtext">Anti-VM and sandbox techniques</text>
+        <text x="330" y="450" class="subtext">Obfuscation and encryption</text>
+        <text x="330" y="465" class="subtext">Signature forgery</text>
+    </g>
+    <g>
+        <rect x="475" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="480" y="415" class="text">4.3 Cloud Environment Privilege Escalation</text>
+        <text x="485" y="435" class="subtext">Role impersonation</text>
+        <text x="485" y="450" class="subtext">Misconfiguration exploitation</text>
+        <text x="485" y="465" class="subtext">Managed identity abuse</text>
+    </g>
+    <g>
+        <rect x="630" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="635" y="415" class="text">5.3 Vulnerability Scanning</text>
+        <text x="640" y="435" class="subtext">Internal system vulnerability scanning</text>
+        <text x="640" y="450" class="subtext">Misconfiguration identification</text>
+        <text x="640" y="465" class="subtext">Unpatched system discovery</text>
+    </g>
+    <g>
+        <rect x="785" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="790" y="415" class="text">6.3 Internal Network Manipulation</text>
+        <text x="795" y="435" class="subtext">VLAN hopping</text>
+        <text x="795" y="450" class="subtext">Internal routing manipulation</text>
+        <text x="795" y="465" class="subtext">ARP spoofing</text>
+    </g>
+    <g>
+        <rect x="940" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="945" y="415" class="text">7.3 Covert Data Exfiltration</text>
+        <text x="950" y="435" class="subtext">DNS tunneling</text>
+        <text x="950" y="450" class="subtext">Encrypted channel data transmission</text>
+        <text x="950" y="465" class="subtext">Steganography</text>
+    </g>
+    <g>
+        <rect x="1095" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1100" y="415" class="text">8.3 Ransomware Attacks</text>
+        <text x="1105" y="435" class="subtext">Data encryption</text>
+        <text x="1105" y="450" class="subtext">Ransom message delivery</text>
+        <text x="1105" y="465" class="subtext">Payment system establishment</text>
+    </g>
+    <g>
+        <rect x="1250" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1255" y="415" class="text">9.3 Alternate Access Points</text>
+        <text x="1260" y="435" class="subtext">Multiple backdoor deployment</text>
+        <text x="1260" y="450" class="subtext">Dormant agents</text>
+        <text x="1260" y="465" class="subtext">Hardware implants</text>
+    </g>
+    <g>
+        <rect x="1405" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1410" y="415" class="text">10.3 Evacuation Strategy</text>
+        <text x="1415" y="435" class="subtext">Phased withdrawal</text>
+        <text x="1415" y="450" class="subtext">False evacuation decoys</text>
+        <text x="1415" y="465" class="subtext">Automated backdoor maintenance</text>
+    </g>
+    <g>
+        <rect x="1560" y="395" width="150" height="140" rx="5" ry="5" class="cell"/>
+        <text x="1565" y="415" class="text">11.3 Capability Enhancement</text>
+        <text x="1570" y="435" class="subtext">Tool and malware improvement</text>
+        <text x="1570" y="450" class="subtext">New attack vector research</text>
+        <text x="1570" y="465" class="subtext">Team skill training and improvement</text>
+    </g>
+</svg>
