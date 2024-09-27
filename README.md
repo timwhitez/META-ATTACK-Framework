@@ -3,9 +3,9 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 基于 ATT&CK 框架的可操作攻击性安全技术的综合知识库
 
-![](meta-attack-matrix.svg)
+![](./meta-attack-matrix.svg)
 
-![](meta-attack-matrix_en.svg)
+![](./meta-attack-matrix_en.svg)
 
 ## 1. Strategic Planning | 战略规划 [Reconnaissance (TA0043), Resource Development (TA0042)]
 
