@@ -7,6 +7,8 @@ A comprehensive matrix of actionable offensive security techniques based on ATT&
 
 ![](./meta-attack-matrix_en.svg)
 
+![](./attack-path.svg)
+
 ## 1. Strategic Planning | 战略规划 [Reconnaissance (TA0043), Resource Development (TA0042)]
 
 This phase involves pre-attack preparation work, including target selection, resource preparation, and intelligence gathering. | 此阶段涉及攻击前的准备工作，包括目标选择、资源准备和情报收集。
