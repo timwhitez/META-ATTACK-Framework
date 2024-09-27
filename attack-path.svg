@@ -1,0 +1,84 @@
+<svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    
+    <rect width="100%" height="100%" fill="#f8f8f8"/>
+    
+    <text x="500" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">APT Attack Path based on META-ATT&CK Framework</text>
+
+    <!-- Nodes -->
+    <g transform="translate(50,100)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#a8d8a8"/>
+        <text x="90" y="35" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">1. Strategic Planning</text>
+	<text x="90" y="55" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">1. 战略规划</text>
+    </g>
+
+    <g transform="translate(290,100)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#a8c8d8"/>
+        <text x="90" y="35" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">2. Initial Access</text>
+	<text x="90" y="55" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">2. 初始访问</text>
+    </g>
+
+    <g transform="translate(530,100)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#d8d8a8"/>
+        <text x="90" y="35" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">3. Privilege Escalation</text>
+	<text x="90" y="55" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">3. 权限提升</text>
+    </g>
+
+    <g transform="translate(770,100)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#d8a8d8"/>
+        <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">4. Internal</text>
+        <text x="90" y="45" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Reconnaissance</text>
+        <text x="90" y="65" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">4. 内部侦察</text>
+    </g>
+
+    <g transform="translate(50,250)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#d8b8a8"/>
+        <text x="90" y="35" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">5. Lateral Movement</text>
+        <text x="90" y="55" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">5. 横向移动</text>
+    </g>
+
+    <g transform="translate(290,250)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#c8b8a8"/>
+        <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">6. Data Acquisition</text>
+        <text x="90" y="45" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">&amp; Exfiltration</text>
+        <text x="90" y="65" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">6. 数据获取与渗出</text>
+    </g>
+
+    <g transform="translate(530,250)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#d8a8b8"/>
+        <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">7. Impact &amp;</text>
+        <text x="90" y="45" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Destruction</text>
+        <text x="90" y="65" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">7. 影响与破坏</text>
+    </g>
+
+    <g transform="translate(770,250)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#a8d8c8"/>
+        <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">8. Long-term</text>
+        <text x="90" y="45" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Persistence</text>
+        <text x="90" y="65" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">8. 长期驻留</text>
+    </g>
+
+    <g transform="translate(410,400)">
+        <rect width="180" height="80" rx="10" ry="10" fill="#b8c8d8"/>
+        <text x="90" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">9. Mission</text>
+        <text x="90" y="45" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">Completion</text>
+        <text x="90" y="65" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">9. 行动完成</text>
+    </g>
+
+    <!-- Arrows -->
+    <line x1="230" y1="140" x2="270" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="470" y1="140" x2="510" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="710" y1="140" x2="750" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 860 180 C 860 215, 140 215, 140 230" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="230" y1="290" x2="270" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="470" y1="290" x2="510" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="710" y1="290" x2="750" y2="290" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 860 330 C 860 365, 500 365, 500 380" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Cycle arrow -->
+    <path d="M 770 330 Q 650 380 490 330" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>
