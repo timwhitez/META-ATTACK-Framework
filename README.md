@@ -8,6 +8,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 1. 战略规划 (Strategic Planning)
 [对应ATT&CK战术: Reconnaissance (TA0043), Resource Development (TA0042)]
+
 此阶段涉及攻击前的准备工作，包括目标选择、资源准备和情报收集。
 
 ### 1.1 目标选择 (Target Selection)
@@ -27,6 +28,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 2. 初始访问 (Initial Access)
 [对应ATT&CK战术: Initial Access (TA0001)]
+
 此阶段涉及攻击者首次进入目标网络的方法。
 
 ### 2.1 社会工程攻击 (Social Engineering Attacks)
@@ -46,6 +48,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 3. 立足点建立 (Foothold Establishment)
 [对应ATT&CK战术: Persistence (TA0003), Defense Evasion (TA0005)]
+
 此阶段涉及攻击者在目标系统中建立长期访问的方法。
 
 ### 3.1 持久化机制 (Persistence Mechanisms)
@@ -65,6 +68,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 4. 权限提升 (Privilege Escalation)
 [对应ATT&CK战术: Privilege Escalation (TA0004)]
+
 此阶段涉及攻击者获取更高级别系统权限的方法。
 
 ### 4.1 本地权限提升 (Local Privilege Escalation)
@@ -84,6 +88,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 5. 内部侦察 (Internal Reconnaissance)
 [对应ATT&CK战术: Discovery (TA0007)]
+
 此阶段涉及攻击者在目标网络内部收集信息的方法。
 
 ### 5.1 网络发现 (Network Discovery)
@@ -103,6 +108,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 6. 横向移动 (Lateral Movement)
 [对应ATT&CK战术: Lateral Movement (TA0008)]
+
 此阶段涉及攻击者在目标网络内部扩展控制范围的方法。
 
 ### 6.1 凭证利用 (Credential Exploitation)
@@ -122,6 +128,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 7. 数据获取与渗出 (Data Acquisition and Exfiltration)
 [对应ATT&CK战术: Collection (TA0009), Exfiltration (TA0010)]
+
 此阶段涉及攻击者收集和传输目标数据的方法。
 
 ### 7.1 数据发现与收集 (Data Discovery and Collection)
@@ -141,6 +148,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 8. 影响与破坏 (Impact and Destruction)
 [对应ATT&CK战术: Impact (TA0040)]
+
 此阶段涉及攻击者对目标系统造成破坏或影响的方法。
 
 ### 8.1 数据操纵 (Data Manipulation)
@@ -160,6 +168,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 9. 长期驻留 (Long-term Persistence)
 [对应ATT&CK战术: Persistence (TA0003), Command and Control (TA0011)]
+
 此阶段涉及攻击者维持长期访问和控制的方法。
 
 ### 9.1 隐蔽通信通道 (Covert Communication Channels)
@@ -179,6 +188,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 10. 行动完成 (Mission Completion)
 [对应ATT&CK战术: Exfiltration (TA0010), Impact (TA0040)]
+
 此阶段涉及攻击者完成目标并清理痕迹的方法。
 
 ### 10.1 目标确认 (Objective Confirmation)
@@ -198,6 +208,7 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 ## 11. 后行动评估 (Post-Action Evaluation)
 [无直接对应ATT&CK战术]
+
 此阶段涉及攻击者评估行动效果并进行能力提升的方法。
 
 ### 11.1 行动效果分析 (Action Effectiveness Analysis)
