@@ -3,6 +3,9 @@ A comprehensive knowledge base of actionable offensive security techniques based
 
 基于 ATT&CK 框架的可操作攻击性安全技术的综合知识库
 
+![](meta-attack-matrix.svg)
+
+
 ## 1. 战略规划 (Strategic Planning)
 [对应ATT&CK战术: Reconnaissance (TA0043), Resource Development (TA0042)]
 此阶段涉及攻击前的准备工作，包括目标选择、资源准备和情报收集。
