@@ -1,5 +1,5 @@
 # META-ATT&CK-Framework
-A comprehensive matrix base of actionable offensive security techniques based on ATT&CK Framework
+A comprehensive matrix of actionable offensive security techniques based on ATT&CK Framework
 
 基于 ATT&CK 框架的可操作攻击性安全技术的综合矩阵
 
